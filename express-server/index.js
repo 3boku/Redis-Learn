@@ -2,7 +2,7 @@ import { createClient } from "redis"
 import express from "express"
 
 const client = createClient ({
-  url : "redis://default:72c6a1c60d694eb8b49f464368e9e7e0@apn1-immune-mongrel-34253.upstash.io:34253"
+  url : "redis url"
 });
 
 client.on("error", function(err) {
